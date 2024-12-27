@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.example.backend.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -43,8 +43,8 @@ public class Product {
         this.description = description;
     }
 
-    public void setPrice(Long price){
-        this.id = price;
+    public void setPrice(double price){
+        this.price = price;
     }
 
 }
